@@ -1,0 +1,17 @@
+h1{
+    color: blue;  /*valor a modificar */ 
+    border: 1px solid rebeccapurple;   
+}
+/* clases */
+
+.parrafoRojo{
+    font-size: 35px;
+    border: 1px solid red;
+}
+.parrafoAmarillo{
+    color: brown;
+    background-color:greenyellow; 
+    border:2px solid yellow;
+    margin-top: 120px;
+    padding-bottom: 120px;
+}
