@@ -1,0 +1,58 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: Send_Box;
+    padding: 5em;
+}
+.parrafo1{
+    background-color: white;
+}
+.fondoBlanco{
+    background-color: white;
+}
+.fondoRojo{
+    background-color: red;
+}
+.fondoNegro{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.imagen{
+    width: 150px;
+}
+.texto1{
+    text-align: center;/*cambia el tipo de fuente */
+    font-size: 3em;
+    color: rgb(25, 253, 0);
+}
+.texto2{
+    font-size: 1em;
+    color: white;
+    text-align: justify;
+}
+.separacion{
+    padding: 1em;
+    background-color: slateblue;
+    }
+.texto3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.borde{
+    border: 10px solid white;
+    border-radius: 10px;
+}
+.bordeSlateblue{
+    border: 2px solid slateblue;
+    border-radius: 5px;
+}
+    .bordeRojo{
+    border: 2px solid red;
+    border-radius: 5px;
+    }
+@font-face{
+    font-family: Send_Box;
+    src: url(./Fuentes/MisterGrape-PersonalUse.otf);
+}
+    
