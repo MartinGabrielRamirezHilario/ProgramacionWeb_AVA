@@ -16,6 +16,8 @@
     if($array['contar']>0){
         //Si el usuario existe manda a la lista
         $_SESSION['Nombre']=$nombreAlumno;
+        $_SESSION['Apellido']=$apellidoAlumno;
+        $_SESSION['Contraseña']=$clave;
         header("Location:../index.php");
         exit();
     }else{
