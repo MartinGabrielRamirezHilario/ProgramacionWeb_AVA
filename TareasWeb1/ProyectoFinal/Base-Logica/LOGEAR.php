@@ -7,7 +7,7 @@
     $apellidoAlumno=$_POST['Apellido'];
     $clave=$_POST['Contraseña'];
 
-    $q = "SELECT COUNT(*) as contar from Alumnos where Nombre= '$nombreAlumno' AND Contraseña = '$clave'";
+    $q = "SELECT COUNT(*) as contar from Alumnos where Nombre= '$nombreAlumno' AND Apellido='$apellidoAlumno' AND Contraseña = '$clave'";
 
     $consulta=mysqli_query($conexion,$q);
 
